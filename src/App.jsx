@@ -1,5 +1,4 @@
 import InputBox from "./components/InputBox";
-import image from "./assets/exchange.jpg";
 import useCurrencyInfo from "./hooks/useCurrencyInfo";
 import { useState, useId, useCallback } from "react";
 function App() {
@@ -21,8 +20,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-[#0b2a7d] bg-opacity-60 p-8 border-[3px] border-[#244baf] rounded-xl text-base text-white "
-      style={{ backgroundImage: `url(${image})` }}>
+      <div className="bg-[#0b2a7d] bg-opacity-60 p-8 border-[3px] border-[#244baf] rounded-xl text-base text-white ">
         <h1 className="text-center text-4xl mb-8">Currency Converter</h1>
         <form
           className="flex flex-col gap-4"
