@@ -21,8 +21,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-[#0b2a7d] bg-opacity-60 p-8 border-[3px] border-[#244baf] rounded-xl text-base text-white">
-        <img src={image} className="w-40 rounded-lg"/>
+      <div className="bg-[#0b2a7d] bg-opacity-60 p-8 border-[3px] border-[#244baf] rounded-xl text-base text-white bg-[url(./src/assets/exchange.jpg)]">
         <h1 className="text-center text-4xl mb-8">Currency Converter</h1>
         <form
           className="flex flex-col gap-4"
